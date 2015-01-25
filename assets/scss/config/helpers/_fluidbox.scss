@@ -5,9 +5,9 @@ $animation-bg-color: $overlay-bg-color;
 
 // Animation
 @keyframes fluidboxLoading {
-    0%		{ transform: translate(-50%,-50%) rotateX(0)		rotateY(0);			}
-    50%		{ transform: translate(-50%,-50%) rotateX(-180deg)	rotateY(0);			}
-    100%	{ transform: translate(-50%,-50%) rotateX(-180deg)	rotateY(-180deg);	}
+    0% { transform: translate(-50%,-50%) rotateX(0) rotateY(0); }
+    50% { transform: translate(-50%,-50%) rotateX(-180deg) rotateY(0); }
+    100% { transform: translate(-50%,-50%) rotateX(-180deg) rotateY(-180deg); }
 }
 
 // Rules
@@ -52,7 +52,7 @@ $animation-bg-color: $overlay-bg-color;
     transition-delay: $transition-duration, 0;
 
     &::before {
-        animation: fluidboxLoading 1s infinite;
+        @include animation(fluidboxLoading 1s infinite);
         /* You can replace this with any color you want, or even a loading gif if desired */
         background-color: $animation-bg-color;
         content: '';
