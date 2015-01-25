@@ -1,5 +1,5 @@
 html {
-    font: 400 #{$rootFontSize}/$rootLineHeight $rootFontFamily;
+    font: 300 #{$rootFontSize}/$rootLineHeight $rootFontFamily;
     @media screen and (min-width: #{$break-bigger}) {
         font-size: $rootFontSize * 1.2;
     }
@@ -74,7 +74,7 @@ sub {
 }
 
 strong {
-    font-weight: bold;
+    font-weight: 600;
 }
 
 em {

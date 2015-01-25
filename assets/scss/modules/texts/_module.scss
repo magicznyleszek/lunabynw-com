@@ -21,3 +21,7 @@
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+
+[am-text~="spaced"] {
+    letter-spacing: 1px;
+}

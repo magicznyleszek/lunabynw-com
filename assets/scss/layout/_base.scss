@@ -4,4 +4,9 @@
     color: $app-txt-c;
     background-color: $app-bg-c;
     padding: rem($space-large);
+    box-shadow: inset $c-white 0 0 0 rem($space-large), inset $c-lunaBlue 0 0 0 rem($space-large + 1);
+    body {
+        @include box-sizing(border-box);
+        padding: rem($space-giant);
+    }
 }

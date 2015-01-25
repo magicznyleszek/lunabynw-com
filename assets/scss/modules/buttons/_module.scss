@@ -49,9 +49,8 @@
     }
 }
 
-[am-button~="spacelessH"] {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+[am-button~="spaceless"] {
+    padding: 0 !important;
 }
 
 [am-button~="wide"] {

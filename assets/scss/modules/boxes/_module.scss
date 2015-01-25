@@ -1,7 +1,7 @@
 // boxes module
 
 /*
-    <div am-box="padded black"></div>
+    <div am-box="padded lunaBlue"></div>
 */
 
 @import "modules/boxes/config";
@@ -19,17 +19,7 @@
     padding: rem($space-large);
 }
 
-[am-box~="black"] {
-    color: $box-black-txt-c;
-    background-color: $box-black-bg-c;
-}
-
-[am-box~="crimson"] {
-    color: $box-crimson-txt-c;
-    background-color: $box-crimson-bg-c;
-}
-
-[am-box~="silver"] {
-    color: $box-silver-txt-c;
-    background-color: $box-silver-bg-c;
+[am-box~="lunaBlue"] {
+    color: $box-lunaBlue-txt-c;
+    background-color: $box-lunaBlue-bg-c;
 }

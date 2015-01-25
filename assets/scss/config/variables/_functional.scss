@@ -1,7 +1,7 @@
 // all FUNCTIONAL variables
 
 // base colors
-$app-txt-c: $c-black;
+$app-txt-c: $c-lunaBlue;
 $app-bg-c: $c-white;
 
 // layout widths
@@ -30,9 +30,9 @@ $hr-bg-c: $c-silver;
 $hr-h: 2px;
 
 // focus and selection
-$focus-outline-c: $c-crimson;
+$focus-outline-c: $c-lunaBlue;
 $selection-txt-c: $c-white;
-$selection-bg-c: $c-crimson;
+$selection-bg-c: $c-lunaBlue;
 
 // code element
 $code-family: $family-sourceCodePro;

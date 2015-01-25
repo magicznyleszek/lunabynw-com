@@ -2,14 +2,12 @@ function projectInterface() {
     // declare a public run function with all private stuff initialized inside of it
     this.run = run;
     function run() {
-        doSomething();
+        initFluidbox();
     }
 
     // this does something if true
-    function doSomething() {
-        if(true === true) {
-            console.log('Hello world!');
-        }
+    function initFluidbox() {
+        $('a[rel="lightbox"]').fluidbox();
     }
 }
 
