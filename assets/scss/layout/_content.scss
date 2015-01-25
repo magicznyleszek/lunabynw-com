@@ -1,5 +1,11 @@
 #appContent {
-    max-width: $app-content-w;
-    margin-left: auto;
-    margin-right: auto;
+    //
+}
+
+#productsList {
+    > li {
+        display: inline-block;
+        vertical-align: top;
+        margin: rem($space-medium);
+    }
 }

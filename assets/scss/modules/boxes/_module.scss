@@ -23,3 +23,9 @@
     color: $box-lunaBlue-txt-c;
     background-color: $box-lunaBlue-bg-c;
 }
+
+[am-box~="wrapper"] {
+    max-width: $app-content-w;
+    margin-left: auto;
+    margin-right: auto;
+}
