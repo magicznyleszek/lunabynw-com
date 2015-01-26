@@ -1,21 +1,20 @@
 ## TEAM
 
-[Your title]: [Name Surname]
-Site: [url]
-Email: [email]
-Location: [city, country]
-
+Web development: Leszek Pietrzak
+Site: leszekpietrzak.com
+Email: smutnyleszek@gmail.com
+Location: Warsaw, Poland
 
 ## THANKS
 
 Christopher Eppstein: compass-style.org
 Chirag Mehta: chir.ag/projects/name-that-color
+Dmitry Semenov: dimsemenov.com/plugins/magnific-popup
 Glen Maddern: amcss.github.io
-[Name]: [url/email]
-
+John Resig: jquery.org
 
 ## SITE
 
-Last update: YYYY/MM/DD
-Language: English
-Software: Atom
+Last update: 2015/01/27
+Language: Polish
+Software: Atom, Adobe Photoshop, Adobe Illustrator, iPhoto
