@@ -2,12 +2,27 @@ function projectInterface() {
     // declare a public run function with all private stuff initialized inside of it
     this.run = run;
     function run() {
-        initFluidbox();
+        initMagnificPopup();
     }
 
     // this does something if true
-    function initFluidbox() {
-        $('a[rel="lightbox"]').fluidbox();
+    function initMagnificPopup() {
+        $('a[rel="lightbox"]').magnificPopup({
+            preloader: true,
+            closeOnContentClick: true,
+            closeOnBgClick: true,
+            showCloseBtn: false,
+            type:'image',
+            image: {
+                cursor: 'mfp-zoom-out-cur',
+                verticalFit: true
+            },
+            zoom: {
+                enabled: true,
+                duration: 300,
+                easing: 'ease-in-out'
+            },
+        });
     }
 }
 

@@ -7,17 +7,6 @@
         display: inline-block;
         vertical-align: top;
         margin: rem($space-medium);
-        &.fluidbox-opened {
-            cursor: zoom-out;
-        }
-        &.fluidbox-closed {
-            cursor: zoom-in;
-            &:hover {
-                @include opacity(0.8);
-            }
-            &:active {
-                @include opacity(0.6);
-            }
-        }
+        cursor: zoom-in;
     }
 }
